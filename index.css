@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color:#19191a;
 }
 
 nav {
-    background-color: #333;
+    background-color: #19191a;
     color: #fff;
     padding: 1rem;
     
@@ -23,6 +23,7 @@ nav ul {
     display: flex; /* Clean layout for list items */
     gap: 1rem; /* Spacing between menu items instead of margin-right */
     font-family: Jost, sans-serif;
+    transition: all 0.3s ease;
 }
 
 nav ul li a {
@@ -34,16 +35,16 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration-line: underline;
-    text-decoration-color: #ffffff;
+    text-decoration-color: rgb(209, 69, 209);
     text-decoration-thickness: 1.2px;
     text-underline-offset: 8px; /* Adjusted offset so it stays within the nav bar */
 }
 
 .logo {
-    font-size: 01.0rem;
+    font-size: 1.0rem;
     font-weight: bold;
-    color: #fff;
-    font-family: Jost, sans-serif;
+    color: rgb(209, 69, 209);
+    font-family: viga, sans-serif;
 }
 .logo:hover {
     cursor: default;
@@ -53,14 +54,14 @@ nav ul li a:hover {
 }
 
 .hero {
-    background-color:#333;
+    background-color:#19191a;
     color: #fff;
     padding: 2rem;
     text-align: center;
     font-family: Jost, sans-serif;
 }
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1.5rem; /* Increased slightly to account for the pseudo-element space */
     position: relative;
     display: inline-block; /* Ensures the underline aligns relative to the text length */
@@ -90,11 +91,18 @@ nav ul li a:hover {
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-    font-family: jo;
+    transition: all 0.3s ease;
+    font-family: Jost, sans-serif;
 }
 
 .btn:hover {
-    background-color:#000000;
-    color: #fff;
+    background-color: rgb(209, 69, 209);
+    color: #ffffff;
+}
+.highlight {
+    color: rgb(209, 69, 209);
+    font-family: viga, sans-serif;
+}
+nav ul li a:hover {
+    color: rgb(209, 69, 209);
 }
