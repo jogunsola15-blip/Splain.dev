@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    
+    /* Layout properties to push logo left and ul right */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Clear default margin */
+    display: flex; /* Clean layout for list items */
+    gap: 1rem; /* Spacing between menu items instead of margin-right */
+    font-family: Jost, sans-serif;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    /* Move transition to the base state so it animates smoothly both in AND out */
+    transition: text-underline-offset 0.8s ease, text-decoration-color 0.8s ease;
+}
+
+nav ul li a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 1.2px;
+    text-underline-offset: 8px; /* Adjusted offset so it stays within the nav bar */
+}
+
+.logo {
+    font-size: 01.0rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: Jost, sans-serif;
+}
