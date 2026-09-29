@@ -106,3 +106,8 @@ nav ul li a:hover {
 nav ul li a:hover {
     color: rgb(209, 69, 209);
 }
+.quote {
+    font-family: viga, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(209, 69, 209);
+}
