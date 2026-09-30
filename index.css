@@ -1,3 +1,7 @@
+:root {
+    --brand-color: rgb(73, 230, 159);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -35,7 +39,7 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration-line: underline;
-    text-decoration-color: rgb(209, 69, 209);
+    text-decoration-color: var(--brand-color);;
     text-decoration-thickness: 1.2px;
     text-underline-offset: 8px; /* Adjusted offset so it stays within the nav bar */
 }
@@ -43,7 +47,7 @@ nav ul li a:hover {
 .logo {
     font-size: 1.0rem;
     font-weight: bold;
-    color: rgb(209, 69, 209);
+    color: var(--brand-color);
     font-family: viga, sans-serif;
 }
 .logo:hover {
@@ -96,18 +100,29 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: rgb(209, 69, 209);
+    background-color: var(--brand-color);;
     color: #ffffff;
 }
 .highlight {
-    color: rgb(209, 69, 209);
+    color:var(--brand-color);;
     font-family: viga, sans-serif;
 }
 nav ul li a:hover {
-    color: rgb(209, 69, 209);
+    color:var(--brand-color);;
 }
 .quote {
     font-family: viga, sans-serif;
     font-size: 1.2rem;
-    color: rgb(209, 69, 209);
+    color:var(--brand-color);;
+}
+.secondpage {
+    font-size: 3rem;
+    margin-bottom: 1.5rem; /* Increased slightly to account for the pseudo-element space */
+    position: relative;
+    display: inline-block;
+}
+.secondpage {
+    font-family: viga, sans-serif;
+    font-size: 1.2rem;
+    color: var(--brand-color);;
 }
