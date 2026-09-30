@@ -126,3 +126,19 @@ nav ul li a:hover {
     font-size: 1.2rem;
     color: var(--brand-color);;
 }
+.thirdpage {
+    font-family: viga, sans-serif;
+    font-size: 1.2rem;
+}
+
+.thirdpage a {
+    color: var(--brand-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.thirdpage a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--brand-color);
+    text-decoration-thickness: 1.2px;
+    text-underline-offset: 4px;
+}
